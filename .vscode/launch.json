@@ -25,5 +25,13 @@
             "projectName": "bootingweb",
             "spring.profiles.active": "dev"
         }
+        {
+            "type": "java",
+            "name": "Launch BootingwebApplicationTest",
+            "request": "launch",
+            "mainClass": "com.tombelcher.lil.sbet.bootingweb.BootingwebApplication",
+            "projectName": "bootingweb",
+            "spring.profiles.active": "test"
+        }
     ]
 }
