@@ -17,5 +17,13 @@
             "mainClass": "com.tombelcher.lil.sbet.bootingweb.BootingwebApplication",
             "projectName": "bootingweb"
         }
+        {
+            "type": "java",
+            "name": "Launch BootingwebApplicationDev",
+            "request": "launch",
+            "mainClass": "com.tombelcher.lil.sbet.bootingweb.BootingwebApplication",
+            "projectName": "bootingweb",
+            "spring.profiles.active": "dev"
+        }
     ]
 }
