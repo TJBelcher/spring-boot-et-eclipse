@@ -16,7 +16,7 @@
             "request": "launch",
             "mainClass": "com.tombelcher.lil.sbet.bootingweb.BootingwebApplication",
             "projectName": "bootingweb"
-        }
+        },
         {
             "type": "java",
             "name": "Launch BootingwebApplicationDev",
@@ -25,7 +25,7 @@
             "projectName": "bootingweb",
             "spring.config.activate": "dev"
             // "args": "--spring.profiles.active=dev"
-        }
+        },
         {
             "type": "java",
             "name": "Launch BootingwebApplicationTest",
