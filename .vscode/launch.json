@@ -10,20 +10,12 @@
             "request": "launch",
             "mainClass": "${file}"
         },
-        // {
-        //     "type": "java",
-        //     "name": "Launch BootingwebApplication",
-        //     "request": "launch",
-        //     "mainClass": "com.tombelcher.lil.sbet.bootingweb.BootingwebApplication",
-        //     "projectName": "bootingweb"
-        // }
         {
             "type": "java",
-            "name": "Launch BootingwebApplicationDev",
+            "name": "Launch BootingwebApplication",
             "request": "launch",
             "mainClass": "com.tombelcher.lil.sbet.bootingweb.BootingwebApplication",
-            "projectName": "bootingweb",
-            "spring.profiles.active": "dev"
+            "projectName": "bootingweb"
         }
     ]
 }
