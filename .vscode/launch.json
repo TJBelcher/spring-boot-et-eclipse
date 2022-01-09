@@ -23,7 +23,7 @@
             "request": "launch",
             "mainClass": "com.tombelcher.lil.sbet.bootingweb.BootingwebApplication",
             "projectName": "bootingweb",
-            "spring.config.activate": "dev"
+            "spring.profiles": "dev"
             // "args": "--spring.profiles.active=dev"
         },
         {
@@ -32,7 +32,7 @@
             "request": "launch",
             "mainClass": "com.tombelcher.lil.sbet.bootingweb.BootingwebApplication",
             "projectName": "bootingweb",
-            "spring.config.activate": "test"
+            "spring.profiles": "test"
             // "args": "--spring.profiles.active=test"
         }
     ]
