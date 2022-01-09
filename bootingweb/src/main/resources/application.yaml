@@ -1,22 +1,19 @@
 # spring.profiles → spring.config.activate.on-profile
 # spring:
-#   config:
-#     activate: dev
+#   profiles: dev
 # server:
 #   port: 8000
 # ---
 # spring:
-#   config:
-#     activate: test
+#   profiles: test
 # server:
 #   port: 9000
-
 spring:
-  profiles: dev
+  config.activate.on-profile: dev
 server:
   port: 8000
 ---
 spring:
-  profiles: test
+  config.activate.on-profile: test
 server:
   port: 9000
