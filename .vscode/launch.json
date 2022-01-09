@@ -21,21 +21,22 @@
             "type": "java",
             "name": "Launch BootingwebApplicationDev",
             "request": "launch",
+            "spring.profiles.active": "dev",
             "mainClass": "com.tombelcher.lil.sbet.bootingweb.BootingwebApplication",
-            "projectName": "bootingweb",
+            "projectName": "bootingweb"
             // "spring.profiles.active": "dev"
             // "spring.config.activate.on-profile": "dev"
-            "args": "--spring.profiles.active=dev"
+            // "args": "--spring.profiles.active=dev"
         },
         {
             "type": "java",
             "name": "Launch BootingwebApplicationTest",
             "request": "launch",
+            "spring.profiles.active": "test",
             "mainClass": "com.tombelcher.lil.sbet.bootingweb.BootingwebApplication",
-            "projectName": "bootingweb",
-            // "spring.profiles.active": "test"
+            "projectName": "bootingweb"
             // "spring.config.activate.on-profile": "test"
-            "args": "--spring.profiles.active=test"
+            // "args": "--spring.profiles.active=test"
         }
     ]
 }
