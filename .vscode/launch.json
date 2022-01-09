@@ -25,7 +25,7 @@
             "projectName": "bootingweb",
             // "spring.profiles.active": "dev"
             // "spring.config.activate.on-profile": "dev"
-            "args": "--spring.config.active=dev"
+            "args": "--spring.profiles.active=dev"
         },
         {
             "type": "java",
@@ -35,7 +35,7 @@
             "projectName": "bootingweb",
             // "spring.profiles.active": "test"
             // "spring.config.activate.on-profile": "test"
-            "args": "--spring.config.active=test"
+            "args": "--spring.profiles.active=test"
         }
     ]
 }
