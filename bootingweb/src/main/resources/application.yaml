@@ -9,7 +9,6 @@ spring:
 server:
   port: 9000
 # spring:   THE BELOW DOES NOT WORK!
-# git push test 
 #   config:
 #     activate:
 #       on-profile: dev
