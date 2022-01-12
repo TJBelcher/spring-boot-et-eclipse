@@ -1,5 +1,4 @@
 # spring.profiles → spring.config.activate.on-profile
-# sample line change
 spring:
   profiles: dev
 server:
