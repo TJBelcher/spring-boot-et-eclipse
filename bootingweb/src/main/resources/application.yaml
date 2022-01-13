@@ -1,6 +1,6 @@
 # spring.profiles → spring.config.activate.on-profile
 # sample line change
-# sample line change2b
+# sample line change2bc
 spring:
   profiles: dev
 server:
